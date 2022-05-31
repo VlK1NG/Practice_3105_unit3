@@ -1,4 +1,4 @@
-package com.absoft.unit3;
+package com.absoft.unit3.robots;
 
 public abstract class DancingRobot {
 
