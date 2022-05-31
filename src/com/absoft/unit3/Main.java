@@ -17,18 +17,18 @@ public class Main {
     public static void showShapes() {
         System.out.println("\n===========Rectangle=======\n");
         Shape shape1 = new Rectangle(4, 8);
-        System.out.println(shape1.getSqare());
+        System.out.println("Square: " + shape1.getSqare());
 
         System.out.println("\n===========Circle==========\n");
         Shape shape2 = new Circle(6);
-        System.out.println(shape2.getSqare());
+        System.out.println("Square: " + shape2.getSqare());
 
         System.out.println("\n=====\n");
         Circle shape3 = new Circle(4);
-        System.out.println(shape3.getRadius());
+        System.out.println("Start radius: " + shape3.getRadius());
         shape3.setRadius(3);
-        System.out.println(shape3.getRadius());
-        System.out.println(shape3.getSqare());
+        System.out.println("Setted radius: " + shape3.getRadius());
+        System.out.println("Square with new radius: " + shape3.getSqare());
 
 
         System.out.println("\n=======!");
